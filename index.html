@@ -47,7 +47,7 @@
                 <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
+                <a href="#skills" onclick=$("#menu-close").click();>Skills</a>
             </li>
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
@@ -75,7 +75,7 @@
                 <h2>About Me</h2>
                 <hr class="small">
                 <div class="col-sm-3 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-                  <image class="img-responsive img-circle" src="img/Isaiah.jpg" />
+                  <image class="img-responsive img-circle" src="img/portfolio-1.jpg" />
                 </div>
                 <div class="col-sm-8 col-sm-offset-1 col-xs-12 text-left">
                   <p class="bio-text">
@@ -96,7 +96,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="skills" class="skills bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -173,13 +173,15 @@
                     <h2>My Work</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
+                      <div class="hovereffect portfolio-item" onclick="void(0)">
+                          <img class="img-responsive img-portfolio" src="img/Salt.png" alt="">
+                          <div class="overlay">
+                             <h2>Artist Assemble</h2>
+                             <h4 class="text-left overlay-text">Artist Assemble is a platform to bring together musicians to turn their ideas into reality. </h4>
+                             <a target="_blank" class="info" href="https://artist-assemble.herokuapp.com/">Website</a>
+                             <a target="_blank" class="info" href="https://github.com/Artist-Assemble/Artist-Assemble">Github</a>
+                          </div>
+                      </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
@@ -226,7 +228,7 @@
     </aside>
 
     <!-- Footer -->
-    <footer>
+    <footer id ="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
