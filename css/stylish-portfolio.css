@@ -178,6 +178,7 @@ hr.small {
 
 .about img{
   height: 300px;
+  max-width: 75%;
 }
 
 /* Services */
